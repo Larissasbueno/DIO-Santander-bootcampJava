@@ -1,40 +1,32 @@
-## 🚀 Santander Bootcamp 2023 - Trilha de Backend Java
+## 🚀 Controle de Fluxo - Desafio
 
-  💡 Bem-vindo à nossa trilha de aprendizado em Java! Nesta jornada, você explorará os fundamentos e os aspectos avançados da programação em Java, adquirindo habilidades essenciais para se tornar um desenvolvedor Java experiente. Esta trilha abrange uma variedade de tópicos, desde metodologias ágeis até desenvolvimento de APIs REST com o Spring Framework. Vamos começar a sua jornada de aprendizado!
+  💡 Este é um desafio de programação que visa exercitar os conceitos apresentados no módulo de Controle de Fluxo. Você será responsável por criar um programa em Java que recebe dois números inteiros como parâmetros via terminal e realiza uma série de tarefas com base nesses números.
 
-## 🔍 Objetivo
+## 🔍 Descrição do Desafio
 
-O objetivo principal desta trilha é fornecer a você o conhecimento e as habilidades necessárias para se destacar como desenvolvedor Java. Ao longo do caminho, você aprenderá sobre:
+O sistema que você irá desenvolver deve fazer o seguinte:
 
-📌  Metodologias Ágeis: Descubra como desenvolver software de forma eficiente e colaborativa, seguindo práticas ágeis que são amplamente adotadas na indústria de desenvolvimento de software.
+📌 Receber dois parâmetros via terminal que representam dois números inteiros.
 
-📌  Sintaxe e Práticas de Codificação em Java: Aprenda os conceitos fundamentais da linguagem Java, sua sintaxe e as melhores práticas de codificação para escrever código limpo e eficiente.
+📌  Com base nesses números, você deve determinar a quantidade de iterações necessárias (usando um loop "for") e imprimir no console os números incrementados, começando do número 1.
 
-📌  Programação Orientada a Objetos: Mergulhe no mundo da programação orientada a objetos (POO) e entenda como usar objetos, classes, herança, polimorfismo e encapsulamento em Java.
+📌 Por exemplo, se você fornecer os números 12 e 30 como parâmetros, o programa deverá realizar 18 iterações e imprimir os números de 1 a 18 no console, como "Imprimindo o número 1", "Imprimindo o número 2" e assim por diante.
 
-📌  Bancos de Dados SQL e NoSQL: Explore os conceitos de bancos de dados relacionais e NoSQL e aprenda a interagir com eles usando Java para armazenar e recuperar dados.
+📌  Se o primeiro parâmetro for MAIOR que o segundo parâmetro, você deve lançar uma exceção personalizada chamada ParametrosInvalidosException com a mensagem: "O segundo parâmetro deve ser maior que o primeiro".
 
-📌  Desenvolvimento de APIs REST com o Spring Framework: Aprofunde-se no desenvolvimento de APIs RESTful usando o poderoso Spring Framework, uma ferramenta popular para construir aplicativos Java robustos e escaláveis.
 
-## ♦️ Estrutura da Trilha
+## ♦️ Instruções para o Projeto
 
-**Nossa trilha de aprendizado em Java é organizada em módulos, cada um focado em um tópico específico. Você pode progredir através dos módulos de acordo com o seu próprio ritmo, mas recomendamos seguir a ordem sugerida para uma aprendizagem mais eficaz.**
+**Para concluir este desafio, siga as instruções abaixo:**
 
-📌 **Metodologias Ágeis:** Começaremos com uma introdução às metodologias ágeis e como elas impactam o desenvolvimento de software.
+📌 Crie um novo projeto Java chamado "DesafioControleFluxo".
 
-📌 **Sintaxe e Práticas de Codificação em Java:** Neste módulo, você aprenderá os conceitos básicos do Java, como variáveis, estruturas de controle e estruturas de dados, além de boas práticas de codificação.
+📌 Dentro do projeto, crie a classe Contador.java para realizar a codificação do programa principal. Nesta classe, você implementará a lógica para calcular as iterações e imprimir os números.
 
-📌 **Programação Orientada a Objetos em Java:** Explore a programação orientada a objetos em profundidade, incluindo classes, objetos, herança, polimorfismo e encapsulamento.
+📌 Dentro do projeto, crie a classe ParametrosInvalidosException que representará a exceção personalizada a ser lançada quando os parâmetros não estiverem em conformidade. Certifique-se de que esta classe estenda a classe Exception.
 
-📌 **Bancos de Dados em Java:** Aprenda a interagir com bancos de dados SQL e NoSQL usando Java para armazenar, consultar e manipular dados.
+## ✍️ Considerações Finais
 
-📌 **Desenvolvimento de APIs REST com Spring Framework:** Por fim, mergulhe no mundo do desenvolvimento de APIs RESTful com o Spring Framework, construindo e documentando APIs eficientes e escaláveis.
+  ✍️ Este desafio é uma oportunidade para aplicar seus conhecimentos em controle de fluxo em Java e trabalhar com exceções personalizadas. Certifique-se de testar diferentes cenários e validar o funcionamento correto do programa.
 
-## ✍️ Pré-requisitos
-
-Não é necessário ter conhecimento prévio em Java para iniciar esta trilha. No entanto, ter alguma experiência em programação será útil. Esteja preparado para se dedicar ao aprendizado e praticar regularmente para obter o máximo benefício desta trilha.
-
-## 🔖 Recursos Adicionais
-
-  ✍️ Além dos materiais fornecidos nesta trilha, recomendamos que você explore outros recursos, como livros, cursos online e projetos práticos para aprimorar ainda mais suas habilidades em Java.
-
+Boa codificação!
